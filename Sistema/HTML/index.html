@@ -3,18 +3,165 @@
 <head>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/style.css">
 
-    <meta charset="UTF-8">
-    <title>dev</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Estoque</title>
 </head>
 <body>
 
-    
+    <!-- Nav -->
+    <div class="navbar-fixed">
 
+        <nav>
+            <div class="nav-wrapper" style="overflow: hidden; background-color: #3899ad">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo" style="display: block; background-color: #3899ad">
+            <li><a class="white-text" href="#">Home</a></li>
+            <li><a class="white-text" href="#">Logout</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Body -->
+
+    <!-- Packs -->
+    <div>
+        <div class="row">
+
+            <!-- ################### -->
+
+            <div class="col l6 m12 s12" style="margin-top: 3rem">
+                <div class="container packs">
+                    <!-- Título Pack -->
+                    <h4 class="cor titulopack">LUPO</h4>
+
+                    <!-- Conteúdo Pack -->
+                    <h5 class="cor conteudopack">200</h5>
+                    <h5 class="cor conteudopack">PEÇAS</h5>
+
+                    <!-- Ver mais -->
+                    <div style="background-color: #3899ad; border-bottom-left-radius: 5px;">
+                        <a class="waves-effect" href="#" style="width: 100%">
+                            <div class="row" style="width: 100%; margin: 0">
+                                <div class="col l8 m8 s8">
+                                    <p class="ver">05 Jan</p>
+                                </div>
+                                <div class="col l4 m4 s4">
+                                    <p class="ver">VEJA MAIS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ################### -->
+
+            <div class="col l6 m12 s12" style="margin-top: 3rem">
+                <div class="container packs">
+                    <!-- Título Pack -->
+                    <h4 class="cor titulopack">HERING</h4>
+
+                    <!-- Conteúdo Pack -->
+                    <h5 class="cor conteudopack">5000</h5>
+                    <h5 class="cor conteudopack">PEÇAS</h5>
+
+                    <!-- Ver mais -->
+                    <div style="background-color: #3899ad; border-bottom-left-radius: 5px;">
+                        <a class="waves-effect" href="#" style="width: 100%">
+                            <div class="row" style="width: 100%; margin: 0">
+                                <div class="col l8 m8 s8">
+                                    <p class="ver">05 Jul</p>
+                                </div>
+                                <div class="col l4 m4 s4">
+                                    <p class="ver">VEJA MAIS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ################### -->
+
+            <div class="col l6 m12 s12" style="margin-top: 3rem">
+                <div class="container packs">
+                    <!-- Título Pack -->
+                    <h4 class="cor titulopack">PUMA</h4>
+
+                    <!-- Conteúdo Pack -->
+                    <h5 class="cor conteudopack">400</h5>
+                    <h5 class="cor conteudopack">PEÇAS</h5>
+
+                    <!-- Ver mais -->
+                    <div style="background-color: #3899ad; border-bottom-left-radius: 5px;">
+                        <a class="waves-effect" href="#" style="width: 100%">
+                            <div class="row" style="width: 100%; margin: 0">
+                                <div class="col l8 m8 s8">
+                                    <p class="ver">26 Out</p>
+                                </div>
+                                <div class="col l4 m4 s4">
+                                    <p class="ver">VEJA MAIS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ################### -->
+
+            <div class="col l6 m12 s12" style="margin-top: 3rem">
+                <div class="container packs">
+                    <!-- Título Pack -->
+                    <h4 class="cor titulopack">LACOSTE</h4>
+
+                    <!-- Conteúdo Pack -->
+                    <h5 class="cor conteudopack">2000</h5>
+                    <h5 class="cor conteudopack">PEÇAS</h5>
+
+                    <!-- Ver mais -->
+                    <div style="background-color: #3899ad; border-bottom-left-radius: 5px;">
+                        <a class="waves-effect" href="#" style="width: 100%">
+                            <div class="row" style="width: 100%; margin: 0">
+                                <div class="col l8 m8 s8">
+                                    <p class="ver">16 Dez</p>
+                                </div>
+                                <div class="col l4 m4 s4">
+                                    <p class="ver">VEJA MAIS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- ################### -->
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
 </body>
 </html>
