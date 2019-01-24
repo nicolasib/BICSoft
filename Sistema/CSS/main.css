@@ -1,0 +1,55 @@
+.sidenav-overlay {
+    z-index: 1;
+}
+
+.login{
+    width: 100%;
+    height: auto;
+    border: solid 5px #3899ad;
+    border-radius: 20px;
+}
+
+.packs {
+    border: solid #3899ad 5px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.menu{
+    margin-left: 5rem;
+}
+
+.titulopack{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.data{
+    margin-bottom: 0.2rem;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 15pt;
+}
+
+.conteudopack{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.cor{
+    color: #3899ad;
+}
+.verMais{
+    background-color: #3899ad;
+    border-bottom-right-radius: 5px;
+}
+.aVerMais{
+    width: 100%; 
+    border-bottom-right-radius: 15px;
+}
