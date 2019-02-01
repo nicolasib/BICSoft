@@ -48,8 +48,19 @@
 .verMais{
     background-color: #3899ad;
     border-bottom-right-radius: 5px;
+    padding: 10px;
 }
-.aVerMais{
+.AcessarEstoque{
+    background-color: #3899ad;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}
+.linkAcessarEstoque{
     width: 100%; 
+    border-bottom-right-radius: 15px;
+}
+
+.aVerMais{
+    width: 100%;
     border-bottom-right-radius: 15px;
 }
