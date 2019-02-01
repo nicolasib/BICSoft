@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/individual.css">
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Estoque Individual</title>
+</head>
+<body>
+
+<!-- Nav -->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper" style="overflow: hidden; background-color: #3899ad">
+            <div class="menu">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down" style="font-weight: bold;">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">LOGOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo" style="display: block; background-color: #3899ad">
+        <li><a class="white-text" href="#">HOME</a></li>
+        <li><a class="white-text" href="#">LOGOUT</a></li>
+    </ul>
+</div>
+
+<!-- Tabela -->
+    <div class="tabela">
+        <table class="responsive-table">
+            <thead>
+            <tr>
+                <th style="border-radius: 0px; width: 5%; padding-left: 1.5rem; color: #3899ad;">Referência</th>
+                <th style="border-radius: 0px; width: 10%; padding-left: 1.5rem; color: #3899ad;">Modelo</th>
+                <th style="border-radius: 0px; width: 25%; padding-left: 1.5rem; color: #3899ad;">Descrição da Peça</th>
+                <th style="border-radius: 0px; width: 10%; padding-left: 1.5rem; color: #3899ad;">Valor unitário (R$)</th>
+                <th style="border-radius: 0px; width: 10%; padding-left: 1.5rem; color: #3899ad;">Quantidade de peças</th>
+                <th style="border-radius: 0px; width: 10%; padding-left: 1.5rem; color: #3899ad;">Valor total (R$)</th>
+                <th style="border-radius: 0px; width: 10%; padding-left: 1.5rem; color: #3899ad;">Peças Vendidas</th>
+                <th style="border-radius: 0px; width: 15%; padding-left: 1.5rem; color: #3899ad;">Valor Peças Vendidas (R$)</th>
+                <th style="border-radius: 0px; width: 5%; padding-left: 1.5rem; color: #3899ad;">-%</th>
+                <th style="border-radius: 0px; width: 10%; padding-left: 1.5rem; color: #3899ad;">Total (R$)</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td style="padding: 1.5rem;">035</td>
+                <td style="padding: 1.5rem;">Calça</td>
+                <td style="padding: 1.5rem;">Calça Jeans com detalhes em ribites</td>
+                <td style="padding: 1.5rem;">69,90</td>
+                <td style="padding: 1.5rem;">12</td>
+                <td style="padding: 1.5rem;">838,80</td>
+                <td style="padding: 1.5rem;">8</td>
+                <td style="padding: 1.5rem;">558,00</td>
+                <td style="padding: 1.5rem;">30%</td>
+                <td style="padding: 1.5rem;">440,00</td>
+            </tr>
+            <tr>
+                <td style="padding: 1.5rem;">045</td>
+                <td style="padding: 1.5rem;">Blusa</td>
+                <td style="padding: 1.5rem;">Blusa de malha com silk e pedrarias</td>
+                <td style="padding: 1.5rem;">39,90</td>
+                <td style="padding: 1.5rem;">18</td>
+                <td style="padding: 1.5rem;">718,80</td>
+                <td style="padding: 1.5rem;">13</td>
+                <td style="padding: 1.5rem;">518,70</td>
+                <td style="padding: 1.5rem;">30%</td>
+                <td style="padding: 1.5rem;">402,00</td>
+            </tr>
+            <tr>
+                <td style="padding: 1.5rem;">046</td>
+                <td style="padding: 1.5rem;">Blusa</td>
+                <td style="padding: 1.5rem;">Blusa de viscose estampada</td>
+                <td style="padding: 1.5rem;">29,90</td>
+                <td style="padding: 1.5rem;">20</td>
+                <td style="padding: 1.5rem;">598,00</td>
+                <td style="padding: 1.5rem;">15</td>
+                <td style="padding: 1.5rem;">448,00</td>
+                <td style="padding: 1.5rem;">30%</td>
+                <td style="padding: 1.5rem;">368,50</td>
+            </tr>
+            <tr>
+                <td style="padding: 1.5rem;">047</td>
+                <td style="padding: 1.5rem;">Blusa</td>
+                <td style="padding: 1.5rem;">Blusa de viscose lisa</td>
+                <td style="padding: 1.5rem;">34,90</td>
+                <td style="padding: 1.5rem;">10</td>
+                <td style="padding: 1.5rem;">349,00</td>
+                <td style="padding: 1.5rem;">10</td>
+                <td style="padding: 1.5rem;">349,00</td>
+                <td style="padding: 1.5rem;">30%</td>
+                <td style="padding: 1.5rem;">274,00</td>
+            </tr>
+            <tr>
+                <td style="padding: 1.5rem;">022</td>
+                <td style="padding: 1.5rem;">Vestido</td>
+                <td style="padding: 1.5rem;">Vestido curto estampado</td>
+                <td style="padding: 1.5rem;">39,90</td>
+                <td style="padding: 1.5rem;">10</td>
+                <td style="padding: 1.5rem;">339,90</td>
+                <td style="padding: 1.5rem;">10</td>
+                <td style="padding: 1.5rem;">339,90</td>
+                <td style="padding: 1.5rem;">30%</td>
+                <td style="padding: 1.5rem;">273,00</td>
+            </tr>
+            <tr>
+                <td style="padding: 1.5rem;">023</td>
+                <td style="padding: 1.5rem;">Vestido</td>
+                <td style="padding: 1.5rem;">Vestido longo de viscose estampada</td>
+                <td style="padding: 1.5rem;">59,90</td>
+                <td style="padding: 1.5rem;">8</td>
+                <td style="padding: 1.5rem;">479,20</td>
+                <td style="padding: 1.5rem;">6</td>
+                <td style="padding: 1.5rem;">359,40</td>
+                <td style="padding: 1.5rem;">30%</td>
+                <td style="padding: 1.5rem;">289,90</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <div class="row" style="background-color: #3899ad; margin: 0; padding: 0;">
+                <div class="col s6 m6 l6">
+                    <p class="white-text" style="font-weight: bold; padding-left: 0.8rem;">Valor Total das Peças Vendidas (R$)</p>
+                </div>
+                <div class="col s6 m6 l6">
+                    <p class="white-text right-align" style="font-weight: bold; padding-right: 0.8rem;">2100,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
