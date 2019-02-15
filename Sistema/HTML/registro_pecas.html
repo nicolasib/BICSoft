@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="../CSS/individual.css">
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Registro de peças</title>
+</head>
+<body>
+
+<!-- Nav -->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper" style="overflow: hidden; background-color: #3899ad">
+            <div class="menu">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down" style="font-weight: bold;">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo" style="display: block; background-color: #3899ad">
+        <li><a class="white-text" href="index.html">HOME</a></li>
+        <li><a class="white-text" href="login.html">LOGOUT</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <h3 style="font-weight: bolder; color: #3899ad;">REGISTRO DE PEÇAS</h3>
+</div>
+<div class="divider" style="margin: 10px 0 20px 0"></div>
+<div class="container">
+    <div>
+        <span style="font-weight: bolder; color: #3899ad">REFERÊNCIA:</span>
+        <div style="width: 50%"><input placeholder="Numero de referência" id="referencia" type="text" class="validate"></div>
+    </div>
+    <div style="margin: 20px 0 0 0">
+        <span style="font-weight: bolder; color: #3899ad">MODELO:</span>
+        <div style="width: 50%"><input placeholder="Modelo" id="referencia" type="text" class="validate"></div>
+    </div>
+    <div style="margin: 20px 0 0 0">
+        <span style="font-weight: bolder; color: #3899ad">DESCRIÇÃO DA PEÇA:</span>
+        <div style="width: 50%"><textarea placeholder="Descrição" id="textarea1" class="materialize-textarea"></textarea></div>
+    </div>
+    <div style="margin: 20px 0 0 0">
+        <span style="font-weight: bolder; color: #3899ad">VALOR UNITÁRIO (R$):</span>
+        <div style="width: 50%"><input placeholder="Valor unitário" id="referencia" type="text" class="validate"></div>
+    </div>
+    <div style="margin: 20px 0 0 0">
+        <span style="font-weight: bolder; color: #3899ad">QUANTIDADE DE PEÇAS:</span>
+        <div style="width: 50%"><input placeholder="Quatidade de peças" id="referencia" type="text" class="validate"></div>
+    </div>
+    <div style="width: 50%; margin: 20px 0 0 0">
+        <span style="font-weight: bolder; color: #3899ad">LOJA:</span>
+        <div class="input-field col s12">
+            <select>
+                <option value="" disabled selected>Escolha uma loja</option>
+                <option value="1">Loja 1</option>
+                <option value="2">Loja 2</option>
+                <option value="3">Loja 3</option>
+            </select>
+        </div>
+    </div>
+    <div style="margin: 20px 0 0 0; width: 50%">
+        <button class="btn waves-effect waves-light right" style="background-color:#3899ad" type="submit" name="action">REGISTRAR
+            <i class="material-icons right">send</i>
+        </button>
+    </div>
+</div>
+
+
+
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- ################### -->
+
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+        
+    $('#textarea1').val('');
+    M.textareaAutoResize($('#textarea1'));
+</script>
+
+</body>
+</html>

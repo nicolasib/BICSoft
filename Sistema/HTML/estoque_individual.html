@@ -21,18 +21,20 @@
             <div class="menu">
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="hide-on-med-and-down" style="font-weight: bold;">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">LOGOUT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGOUT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo" style="display: block; background-color: #3899ad">
-        <li><a class="white-text" href="#">HOME</a></li>
-        <li><a class="white-text" href="#">LOGOUT</a></li>
+        <li><a class="white-text" href="index.html">HOME</a></li>
+        <li><a class="white-text" href="login.html">LOGOUT</a></li>
     </ul>
 </div>
+
+<div style="margin: 10px 0 10px 15px;"><h2 style="margin: 0; font-weight: bolder; color: #3899ad ">NOME DA LOJA</h2></div>
 
 <!-- Tabela -->
     <div class="tabela">
@@ -140,5 +142,17 @@
         </div>
     </div>
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- ################### -->
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
 </body>
 </html>
