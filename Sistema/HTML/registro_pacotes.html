@@ -35,35 +35,18 @@
 </div>
 
 <div class="container">
-    <h3 style="font-weight: bolder; color: #3899ad;">REGISTRO DE PEÇAS</h3>
+    <h3 style="font-weight: bolder; color: #3899ad;">REGISTRO DE PACOTE</h3>
 </div>
 <div class="divider" style="margin: 10px 0 20px 0"></div>
 <div class="container">
-    <div style="margin: 20px 0 0 0">
-        <span style="font-weight: bolder; color: #3899ad">MODELO:</span>
-        <div style="width: 50%"><input placeholder="Modelo" id="referencia" type="text" class="validate"></div>
-    </div>
-    <div style="margin: 20px 0 0 0">
-        <span style="font-weight: bolder; color: #3899ad">DESCRIÇÃO DA PEÇA:</span>
-        <div style="width: 50%"><textarea placeholder="Descrição" id="textarea1" class="materialize-textarea"></textarea></div>
-    </div>
-    <div style="margin: 20px 0 0 0">
-        <span style="font-weight: bolder; color: #3899ad">VALOR UNITÁRIO (R$):</span>
-        <div style="width: 50%"><input placeholder="Valor unitário" id="referencia" type="text" class="validate"></div>
-    </div>
-    <div style="margin: 20px 0 0 0">
-        <span style="font-weight: bolder; color: #3899ad">QUANTIDADE DE PEÇAS:</span>
-        <div style="width: 50%"><input placeholder="Quatidade de peças" id="referencia" type="text" class="validate"></div>
-    </div>
-
     <div style="width: 50%; margin: 20px 0 0 0">
-        <span style="font-weight: bolder; color: #3899ad">PACOTE:</span>
+        <span style="font-weight: bolder; color: #3899ad">LOJA:</span>
         <div class="input-field col s12">
             <select>
-                <option value="" disabled selected>Escolha um pacote</option>
-                <option value="1">Pacote 1</option>
-                <option value="2">Pacote 2</option>
-                <option value="3">Pacote 3</option>
+                <option value="" disabled selected>Escolha uma loja</option>
+                <option value="1">Loja 1</option>
+                <option value="2">Loja 2</option>
+                <option value="3">Loja 3</option>
             </select>
         </div>
     </div>
@@ -77,7 +60,7 @@
 
 
 
-<!-- jQuery -->
+<!-- jQuery -->s
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -91,7 +74,7 @@
     $(document).ready(function(){
         $('select').formSelect();
     });
-        
+
     $('#textarea1').val('');
     M.textareaAutoResize($('#textarea1'));
 </script>
